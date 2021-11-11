@@ -27,10 +27,4 @@ function init() {
     })
 }
 
-function createPElement(content) {
-    const newP = document.createElement('p');
-    newP.textContent = content;
-    document.body.appendChild(newP);
-}
-
 init();
